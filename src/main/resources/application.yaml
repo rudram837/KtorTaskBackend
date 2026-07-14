@@ -1,0 +1,7 @@
+ktor:
+  deployment:
+    port: 8088
+  application:
+    modules:
+      - com.tutorial.MainKt.main
+#      - com.tutorial.RoutingKt.configureRouting
